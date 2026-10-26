@@ -24,27 +24,25 @@ export default function About() {
       <div>{about.journey.paragraphs.map(paragraph => <p key={paragraph}>{paragraph}</p>)}</div>
     </section>
 
-    <section className="about-practice">
-      <div className="about-section-copy">
-        <h2>{about.practice.heading}</h2>
-        <p>{about.practice.introduction}</p>
-        <ul>{about.practice.activities.map(activity => <li key={activity}>{activity}</li>)}</ul>
+    <section className="about-personal">
+      <div className="about-section-copy"><h2>{about.personal.heading}</h2><p>{about.personal.paragraph}</p></div>
+      <div className="about-personal-group">
+        <p className="eyebrow">Family</p>
+        <div className="about-family-gallery">
+          {about.personal.familyImages.map(image => <AboutMedia image={image} key={image.src ?? image.label} />)}
+        </div>
       </div>
-      <div className="about-research-images">
-        {about.practice.images.map((image, index) => <AboutMedia image={image} className={`about-research-image-${index + 1}`} key={image.label} />)}
+      <div className="about-personal-group">
+        <p className="eyebrow">Through my lens</p>
+        <div className="about-photography-gallery">
+          {about.personal.photographyImages.map(image => <AboutMedia image={image} key={image.src ?? image.label} />)}
+        </div>
       </div>
     </section>
 
     <section className="about-collaboration">
       <h2>{about.collaboration.heading}</h2>
       <p>{about.collaboration.paragraph}</p>
-    </section>
-
-    <section className="about-beyond">
-      <div className="about-section-copy"><h2>{about.beyond.heading}</h2><p>{about.beyond.paragraph}</p></div>
-      <div className="about-personal-gallery">
-        {about.beyond.images.map((image, index) => <AboutMedia image={image} className={`about-personal-image-${index + 1}`} key={image.label} />)}
-      </div>
     </section>
 
     <section className="about-experience">

@@ -13,6 +13,6 @@ const publicProjectCopy = JSON.stringify(projects);
 for (const phrase of ['to be confirmed', 'to be verified', 'will be added', 'remain to be added', 'details to be added']) {
   assert(!publicProjectCopy.toLowerCase().includes(phrase), `Public project copy still contains placeholder language: ${phrase}`);
 }
-for (const image of [about.portrait, ...about.practice.images, ...about.beyond.images]) if (image.src) assert(existsSync(join(process.cwd(),'public',image.src)),`Missing About image: ${image.src}`);
+for (const image of [about.portrait, ...about.personal.familyImages, ...about.personal.photographyImages]) if (image.src) assert(existsSync(join(process.cwd(),'public',image.src)),`Missing About image: ${image.src}`);
 if(site.cv)assert(existsSync(join(process.cwd(),'public',site.cv.url)),'Missing CV');
 console.log(`Validated ${publicProjects.length} project routes, ${publications.length} publication records, references, and configured local media.`);

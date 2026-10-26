@@ -149,7 +149,7 @@ em { font-style: normal; }
 
 /* About page: an editorial profile with replaceable, intentionally varied imagery. */
 .about-opening { display: grid; grid-template-columns: minmax(0, 1fr) 280px; gap: 56px; align-items: start; }
-.about-media { position: relative; display: block; overflow: hidden; margin: 0; background: var(--media); border: 1px solid #e6e6e2; }
+.about-media { position: relative; display: block; overflow: hidden; margin: 0; background: var(--media); border: 1px solid #e6e6e2; border-radius: 8px; }
 .about-media img { object-fit: cover; }
 .about-media-placeholder { position: absolute; inset: 0; display: grid; place-content: center; justify-items: center; gap: 12px; padding: 24px; color: #8a8a84; font-size: 9px; line-height: 1.4; text-align: center; text-transform: uppercase; letter-spacing: .08em; }
 .about-media figcaption { position: absolute; left: 12px; right: 12px; bottom: 12px; padding: 8px 10px; background: rgba(255,255,255,.92); color: var(--muted); font-size: 9px; line-height: 1.45; }
@@ -158,22 +158,16 @@ em { font-style: normal; }
 .about-page h2 { font-size: 22px; line-height: 1.25; letter-spacing: -.025em; }
 .about-story>div { max-width: 560px; }
 .about-story p { margin-bottom: 22px; color: var(--muted); font-size: 16px; line-height: 1.9; }
-.about-practice { display: grid; grid-template-columns: 250px minmax(0, 1fr); gap: 56px; align-items: start; margin-top: 105px; }
+.about-personal { margin-top: 105px; }
+.about-personal>.about-section-copy { display: grid; grid-template-columns: 250px minmax(0, 1fr); gap: 56px; }
+.about-personal>.about-section-copy p { max-width: 500px; margin-top: 0; }
 .about-section-copy>p { margin-top: 18px; color: var(--muted); font-size: 14px; line-height: 1.8; }
-.about-section-copy ul { display: grid; gap: 8px; margin: 27px 0 0; padding: 0; list-style: none; font-size: 12px; }
-.about-section-copy li::before { content: '—'; margin-right: 10px; color: #a3a39d; }
-.about-research-images { display: grid; grid-template-columns: repeat(8, 1fr); gap: 16px; align-items: start; }
-.about-research-image-1 { grid-column: 1 / 9; aspect-ratio: 1.42; }
-.about-research-image-2 { grid-column: 3 / 9; aspect-ratio: 1.08; margin-top: 14px; }
 .about-collaboration { display: grid; grid-template-columns: 250px minmax(0, 1fr); gap: 56px; margin-top: 100px; padding-top: 30px; border-top: 1px solid var(--border); }
 .about-collaboration p { max-width: 500px; color: var(--muted); font-size: 15px; line-height: 1.85; }
-.about-beyond { margin-top: 105px; }
-.about-beyond>.about-section-copy { display: grid; grid-template-columns: 250px minmax(0, 1fr); gap: 56px; }
-.about-beyond>.about-section-copy p { max-width: 500px; margin-top: 0; }
-.about-personal-gallery { display: grid; grid-template-columns: repeat(12, 1fr); gap: 16px; align-items: start; margin-top: 42px; }
-.about-personal-image-1 { grid-column: 1 / 8; aspect-ratio: 1.28; }
-.about-personal-image-2 { grid-column: 8 / 13; aspect-ratio: .82; margin-top: 64px; }
-.about-personal-image-3 { grid-column: 3 / 9; aspect-ratio: 1.48; margin-top: -5px; }
+.about-personal-group { margin-top: 48px; }
+.about-personal-group>.eyebrow { margin-bottom: 14px; color: var(--muted); }
+.about-family-gallery, .about-photography-gallery { columns: 2; column-gap: 16px; }
+.about-family-gallery .about-media, .about-photography-gallery .about-media { width: 100%; margin-bottom: 16px; aspect-ratio: var(--about-ratio, .75); break-inside: avoid; }
 .about-experience { display: grid; grid-template-columns: 250px minmax(0, 1fr); gap: 56px; margin-top: 110px; padding-top: 35px; border-top: 1px solid var(--border); }
 .about-experience h2 { margin-top: 9px; }
 .about-experience article { display: grid; grid-template-columns: 1.35fr 1fr; gap: 25px; padding: 12px 0; border-bottom: 1px solid #ecece8; }
@@ -261,9 +255,9 @@ em { font-style: normal; }
 .narrative-image { display: block; width: 100%; height: auto; border-radius: 8px; }
 .caption { font-size: 12px; line-height: 1.6; margin-top: 12px; }
 video { width: 100%; display: block; }
-.case-outputs { margin: 60px 0; }
+.case-outputs { width: 100%; min-width: 0; margin: 60px 0; }
 .case-outputs>h2 { font-size: 30px; margin-bottom: 30px; }
-.case-outputs .record { max-width: 780px; margin-left: 0; }
+.case-outputs .record { width: 100%; max-width: 780px; min-width: 0; margin-left: 0; overflow-wrap: anywhere; }
 .case-outputs .publication-status { width: fit-content; margin-bottom: 12px; }
 .output-note { margin-top: 8px; color: var(--muted); font-size: 11px; }
 .output-links { display: flex; flex-wrap: wrap; gap: 4px 28px; }
@@ -352,7 +346,7 @@ video { width: 100%; display: block; }
   .about-opening { grid-template-columns: minmax(0, 1fr) 240px; gap: 30px; }
   .about-portrait { max-width: 240px; }
   .about-story { grid-template-columns: 150px minmax(0, 1fr); gap: 32px; }
-  .about-practice, .about-collaboration, .about-beyond>.about-section-copy, .about-experience { grid-template-columns: 200px minmax(0, 1fr); gap: 32px; }
+  .about-personal>.about-section-copy, .about-collaboration, .about-experience { grid-template-columns: 200px minmax(0, 1fr); gap: 32px; }
   .cv-section { grid-template-columns: 155px minmax(0, 1fr); gap: 32px; }
   .cv-entry-heading, .cv-compact-entry, .cv-list article { grid-template-columns: minmax(0, 1fr) 130px; gap: 18px; }
   .case-opening { grid-template-columns: minmax(0, 1fr) 240px; }
@@ -410,18 +404,15 @@ video { width: 100%; display: block; }
   .publication-authors { font-size: 12px; }
   .about-opening { grid-template-columns: 1fr; gap: 37px; }
   .about-portrait { width: 68%; max-width: 260px; margin-left: auto; }
-  .about-story, .about-practice, .about-collaboration, .about-beyond>.about-section-copy, .about-experience { display: block; }
-  .about-story, .about-practice, .about-collaboration, .about-beyond, .about-experience { margin-top: 72px; }
-  .about-story h2, .about-practice h2, .about-collaboration h2, .about-beyond h2 { margin-bottom: 23px; }
+  .about-story, .about-personal>.about-section-copy, .about-collaboration, .about-experience { display: block; }
+  .about-story, .about-personal, .about-collaboration, .about-experience { margin-top: 72px; }
+  .about-story h2, .about-personal h2, .about-collaboration h2 { margin-bottom: 23px; }
   .about-story p { font-size: 15px; line-height: 1.85; }
   .about-section-copy>p, .about-collaboration p { font-size: 14px; }
-  .about-research-images { margin-top: 34px; }
-  .about-research-image-2 { grid-column: 2 / 9; }
   .about-collaboration { padding-top: 26px; }
-  .about-personal-gallery { gap: 10px; margin-top: 32px; }
-  .about-personal-image-1 { grid-column: 1 / 9; }
-  .about-personal-image-2 { grid-column: 9 / 13; margin-top: 38px; }
-  .about-personal-image-3 { grid-column: 2 / 10; margin-top: 0; }
+  .about-personal-group { margin-top: 34px; }
+  .about-family-gallery, .about-photography-gallery { columns: 1; }
+  .about-family-gallery .about-media, .about-photography-gallery .about-media { margin-bottom: 10px; }
   .about-experience { padding-top: 27px; }
   .about-experience>div:first-child { margin-bottom: 30px; }
   .about-experience article { grid-template-columns: 1fr; gap: 3px; padding-block: 13px; }

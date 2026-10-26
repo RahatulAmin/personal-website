@@ -61,6 +61,7 @@ const aboutImageSchema = z.object({
   alt: z.string().min(1),
   label: z.string().min(1),
   note: z.string().optional(),
+  ratio: z.number().positive().optional(),
 });
 const aboutSchema = z.object({
   eyebrow: z.string(),
@@ -68,9 +69,13 @@ const aboutSchema = z.object({
   introduction: z.array(z.string().min(1)).min(1),
   portrait: aboutImageSchema,
   journey: z.object({ heading: z.string(), paragraphs: z.array(z.string().min(1)).min(1) }),
-  practice: z.object({ heading: z.string(), introduction: z.string(), activities: z.array(z.string().min(1)), images: z.array(aboutImageSchema) }),
+  personal: z.object({
+    heading: z.string(),
+    paragraph: z.string(),
+    familyImages: z.array(aboutImageSchema),
+    photographyImages: z.array(aboutImageSchema),
+  }),
   collaboration: z.object({ heading: z.string(), paragraph: z.string() }),
-  beyond: z.object({ heading: z.string(), paragraph: z.string(), images: z.array(aboutImageSchema) }),
   timeline: z.object({ heading: z.string(), entries: z.array(z.object({ institution: z.string(), degree: z.string() })) }),
 });
 export const about = aboutSchema.parse(aboutData);

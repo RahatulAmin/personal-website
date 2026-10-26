@@ -11,18 +11,23 @@ export const metadata: Metadata = {
 
 const sections = [
   {
-    id: 'peer-reviewed',
-    title: 'Peer-Reviewed Publications',
-    records: publications.filter(publication => publication.type !== 'thesis' && ['published', 'in_press'].includes(publication.status)),
+    id: 'conference',
+    title: 'Conference',
+    records: publications.filter(publication => publication.type === 'conference'),
   },
   {
-    id: 'manuscripts',
-    title: 'Manuscripts Under Review & In Preparation',
+    id: 'workshop',
+    title: 'Workshop',
+    records: publications.filter(publication => publication.type === 'workshop'),
+  },
+  {
+    id: 'under-review',
+    title: 'Under Review',
     records: publications.filter(publication => ['under_review', 'in_preparation'].includes(publication.status)),
   },
   {
-    id: 'theses',
-    title: 'Theses',
+    id: 'thesis',
+    title: 'Thesis',
     records: publications.filter(publication => publication.type === 'thesis'),
   },
 ].map(section => ({ ...section, records: [...section.records].sort((a, b) => b.year - a.year) }));

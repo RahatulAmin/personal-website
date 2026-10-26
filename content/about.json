@@ -19,59 +19,47 @@
       "Now, as a PhD researcher at McGill University, I investigate behavioral diversity, social appropriateness, and human experiences with robots. My work still draws on system building, but the central questions are about people: how experiences differ, what those differences mean, and how HRI research can account for them without reducing everyone to an average user."
     ]
   },
-  "practice": {
-    "heading": "Research in practice",
-    "introduction": "My research moves between real-world observation, controlled study design, and the tools needed to make sense of human–robot interaction.",
-    "activities": [
-      "Conduct field studies",
-      "Design controlled experiments",
-      "Deploy robotic systems",
-      "Analyze human behavior",
-      "Develop research frameworks",
-      "Build research software"
-    ],
-    "images": [
+  "personal": {
+    "heading": "Life outside research",
+    "paragraph": "The people closest to me and the moments I notice through a camera keep me grounded. Family gives me a sense of home, while photography gives me a reason to slow down, pay attention, and preserve the details that might otherwise pass by.",
+    "familyImages": [
       {
-        "src": null,
-        "alt": "Rahat conducting a human–robot interaction study",
-        "label": "Research activity photograph needed",
-        "note": "Use a field study or participant-session photograph."
+        "src": "/images/about/us.jpg",
+        "alt": "Rahat standing outdoors with his wife and daughter",
+        "label": "Family portrait",
+        "ratio": 0.5205
       },
       {
-        "src": null,
-        "alt": "A robotic system deployed during Rahat's research",
-        "label": "Robot deployment photograph needed",
-        "note": "Use an image of an actual research platform or setup."
+        "src": "/images/about/Aleyna.jpg",
+        "alt": "A young girl smiling while holding a doll",
+        "label": "Family moment",
+        "ratio": 0.8722
+      },
+      {
+        "src": "/images/about/wife.jpg",
+        "alt": "A woman and young girl wearing playful crowns in a Paddington shop",
+        "label": "Family day out",
+        "ratio": 0.866
+      }
+    ],
+    "photographyImages": [
+      {
+        "src": "/images/about/Photo 1.jpg",
+        "alt": "McGill University's Arts Building framed by trees in autumn",
+        "label": "Autumn at McGill",
+        "ratio": 0.75
+      },
+      {
+        "src": "/images/about/Photo 2.jpg",
+        "alt": "A tree-lined Montreal street leading toward Mount Royal in autumn",
+        "label": "Montreal in autumn",
+        "ratio": 0.75
       }
     ]
   },
   "collaboration": {
     "heading": "What I bring to a collaboration",
     "paragraph": "I work across empirical research and technical development. That means I can help shape a research question, plan and run a study, work directly with robotic systems, and build frameworks or software that support the analysis. I value collaborations where these perspectives can inform one another."
-  },
-  "beyond": {
-    "heading": "Beyond research",
-    "paragraph": "Outside research, I spend time with photography, illustration and painting, biking, travel, and software or creative projects. They give me different ways to observe, make, and explore ideas.",
-    "images": [
-      {
-        "src": null,
-        "alt": "A personal photograph by Rahatul Ananto",
-        "label": "Personal photograph needed",
-        "note": "Photography, travel, or an everyday observation."
-      },
-      {
-        "src": null,
-        "alt": "An illustration or painting by Rahatul Ananto",
-        "label": "Artwork needed",
-        "note": "An illustration, sketch, or painting."
-      },
-      {
-        "src": null,
-        "alt": "A personal creative project by Rahatul Ananto",
-        "label": "Personal project image needed",
-        "note": "A biking, software, or creative-project image."
-      }
-    ]
   },
   "timeline": {
     "heading": "Experience",
