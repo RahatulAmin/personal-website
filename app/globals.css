@@ -277,6 +277,38 @@ video { width: 100%; display: block; }
   .work.wrap,
   .footer.wrap,
   .page.wrap { max-width: 1000px; }
+  .eyebrow { font-size: 13px; }
+  .wordmark { font-size: 18px; }
+  .sidebar-role, .sidebar-position { font-size: 14px; }
+  .sidebar-copy, .header nav { font-size: 13px; }
+  .sidebar-meta { font-size: 10px; }
+  .text-link { font-size: 14px; }
+  .project-caption h3 { font-size: 14px; }
+  .project-caption p, .placeholder-label { font-size: 10px; }
+  .closing>div>p { font-size: 16px; }
+  .footer-top>p { font-size: 14px; }
+  .footer-bottom { font-size: 12px; }
+  .editorial-page-header>p:not(.eyebrow) { font-size: 18px; }
+  .publication-meta, .publication-links, .contribution-note { font-size: 12px; }
+  .publication-status { font-size: 11px; }
+  .publication-authors { font-size: 14px; }
+  .publication-venue { font-size: 13px; }
+  .about-story p { font-size: 17px; }
+  .about-section-copy>p, .about-experience h3 { font-size: 15px; }
+  .about-section-copy ul, .about-experience article p { font-size: 13px; }
+  .about-collaboration p { font-size: 16px; }
+  .cv-section>h2 { font-size: 17px; }
+  .cv-entry h3, .cv-compact-entry h3, .cv-list h3 { font-size: 16px; }
+  .cv-entry-heading p, .cv-compact-entry p, .cv-list p, .cv-entry ul, .cv-skills p { font-size: 12px; }
+  .cv-entry time, .cv-compact-entry time, .cv-list time, .cv-actions>div { font-size: 11px; }
+  .cv-description, .cv-skills h3, .cv-outputs>div>p { font-size: 14px; }
+  .case-opening .page-intro, .essay-section p { font-size: 17px; }
+  .case-research-title, .case-meta dt, .output-note, .tag-list, .next-project small, .work-index nav a>span { font-size: 12px; }
+  .case-meta dd, .work-index nav a { font-size: 15px; }
+  .case-metrics dd { font-size: 11px; }
+  .research-list { font-size: 16px; }
+  .research-pathway li, .caption { font-size: 13px; }
+  .work-index summary { font-size: 14px; }
 }
 
 @media (max-width: 1000px) {
