@@ -50,17 +50,30 @@ em { font-style: normal; }
 .project-link { display: block; }
 .project-image-wrap { position: relative; }
 .project-visual { position: relative; overflow: hidden; aspect-ratio: var(--ratio, 1.6); border-radius: 8px; }
+.project-visual.has-media { background: #efefec; }
+.project-visual.has-media::after { content: ''; position: absolute; inset: 0; z-index: 1; background: linear-gradient(105deg, transparent 30%, rgba(255,255,255,.65) 48%, transparent 66%); transform: translateX(-100%); animation: image-loading-sweep 1.35s ease-in-out infinite; transition: opacity 300ms ease; pointer-events: none; }
+.project-visual.has-media.is-loaded::after { opacity: 0; animation: none; }
 .media-placeholder { display: grid; place-items: center; padding: 24px; background: var(--media); border: 1px solid #e6e6e2; }
 .placeholder-label { display: grid; justify-items: center; gap: 10px; color: #8a8a84; font-size: 9px; line-height: 1.4; text-transform: uppercase; letter-spacing: .08em; }
 .missing-image-mark { display: grid; place-items: center; width: 28px; height: 28px; border: 1px solid #b8b8b2; border-radius: 50%; font-size: 14px; line-height: 1; }
-.project-visual img { transition: transform 450ms ease; }
-.project-link:hover img { transform: scale(1.025); }
+.project-visual img { opacity: 0; transition: opacity 360ms ease, transform 450ms ease; }
+.project-visual.is-loaded img { opacity: 1; }
+.project-link:hover .project-visual.is-loaded img { transform: scale(1.025); }
 .project-open { position: absolute; bottom: 20px; right: 20px; background: var(--paper); color: var(--ink); padding: 8px 12px; font-size: 11px; opacity: 0; transform: translateY(5px); transition: opacity 180ms, transform 180ms; }
 .project-link:hover .project-open, .project-link:focus-visible .project-open { opacity: 1; transform: none; }
 .project-caption { padding-top: 11px; }
 .project-caption h3 { font-family: var(--sans); font-weight: 500; font-size: 13px; letter-spacing: -.015em; line-height: 1.35; }
 .project-caption p { font-size: 9px; color: var(--muted); margin-top: 3px; line-height: 1.5; text-transform: uppercase; letter-spacing: .045em; }
 .project-caption p span { margin-inline: 4px; }
+
+@keyframes image-loading-sweep {
+  to { transform: translateX(100%); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .project-visual.has-media::after { animation: none; }
+  .project-visual img { transition: none; }
+}
 
 .closing { display: grid; grid-template-columns: 1fr 2fr; gap: 48px; padding-block: 50px 100px; }
 .closing h2 { font-family: var(--display); font-size: clamp(36px, 4.2vw, 56px); font-weight: 500; line-height: 1.05; letter-spacing: -.005em; max-width: 780px; }
