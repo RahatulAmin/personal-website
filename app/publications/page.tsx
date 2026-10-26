@@ -55,7 +55,7 @@ function PublicationEntry({ publication }: { publication: Publication }) {
 
 export default function Publications() {
   return <main id="main" className="page wrap publications-page">
-    <header className="page-header publications-header">
+    <header className="page-header publications-header editorial-page-header">
       <p className="eyebrow">Research outputs</p>
       <h1 className="page-title">Publications</h1>
       <p className="page-intro">Peer-reviewed publications, manuscripts, and research contributions.</p>

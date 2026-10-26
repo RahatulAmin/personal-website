@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 export default function About() {
   return <main id="main" className="page wrap about-page">
     <header className="about-opening">
-      <div className="about-introduction">
+      <div className="about-introduction editorial-page-header">
         <p className="eyebrow">{about.eyebrow}</p>
         <h1>{about.heading}</h1>
         {about.introduction.map(paragraph => <p key={paragraph}>{paragraph}</p>)}

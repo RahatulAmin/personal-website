@@ -14,7 +14,7 @@ function ExperienceEntry({ entry }: { entry: (typeof cv.researchExperience)[numb
 
 export default function CV() {
   return <main id="main" className="page wrap cv-page">
-    <header className="cv-header">
+    <header className="cv-header editorial-page-header">
       <p className="eyebrow">{cv.eyebrow}</p>
       <h1>{cv.heading}</h1>
       <p>{cv.introduction}</p>

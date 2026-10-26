@@ -6,7 +6,7 @@ export const metadata: Metadata = { title: 'Contact', description: 'Contact Raha
 
 export default function Contact() {
   return <main id="main" className="page wrap contact-page">
-    <header className="contact-header">
+    <header className="contact-header editorial-page-header">
       <p className="eyebrow">Contact</p>
       <h1>Let&apos;s talk.</h1>
       <p>Whether it&apos;s about human–robot interaction, a potential research collaboration, or an interesting idea, I&apos;d be happy to connect.</p>
