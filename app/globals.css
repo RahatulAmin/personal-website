@@ -278,6 +278,10 @@ video { width: 100%; display: block; }
 .mdx-narrative figure { margin: 40px 0; }
 .mdx-narrative a { text-decoration: underline; text-underline-offset: 4px; }
 
+@media (min-width: 1400px) {
+  .work.wrap { max-width: 1000px; }
+}
+
 @media (max-width: 1000px) {
   .wrap { width: calc(100% - 56px); }
   .project-gallery { column-gap: 16px; }
