@@ -124,7 +124,7 @@ em { font-style: normal; }
 .status-blue { background: #e7edf3; color: #405d75; }
 .status-amber { background: #f2ead9; color: #755d2f; }
 .status-grey { background: #ececea; color: #60605b; }
-.publication-entry h2 { max-width: 740px; font-size: clamp(19px, 2vw, 22px); font-weight: 500; line-height: 1.28; letter-spacing: -.025em; }
+.publication-entry h2 { font-size: clamp(19px, 2vw, 22px); font-weight: 500; line-height: 1.28; letter-spacing: -.025em; }
 .publication-authors { margin-top: 10px; color: #444440; font-size: 13px; line-height: 1.65; }
 .publication-authors strong { color: var(--ink); font-weight: 500; }
 .publication-authors sup, .contribution-note sup { font-size: .7em; vertical-align: super; }
