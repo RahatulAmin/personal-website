@@ -1,0 +1,225 @@
+[
+  {
+    "id": "secondary-users-2026",
+    "title": "Understanding Social Appropriateness Perceptions in Secondary Users of Domestic Robots",
+    "authors": [
+      { "name": "Rahatul Amin Ananto", "isMe": true },
+      { "name": "Seol Han" },
+      { "name": "Rachel Ruddy" },
+      { "name": "AJung Moon" }
+    ],
+    "year": 2026,
+    "publicationYear": 2026,
+    "venue": "Companion Proceedings of the 21st ACM/IEEE International Conference on Human-Robot Interaction (HRI Companion 2026)",
+    "type": "conference",
+    "status": "published",
+    "doi": "10.1145/3776734.3794530",
+    "pdf": null,
+    "externalUrl": null,
+    "projectSlug": "secondary-users"
+  },
+  {
+    "id": "robot-service-2026",
+    "title": "Would the Robot Cheapen Your Croissant? How Robots Impact Brand, Service and Quality Perception",
+    "authors": [
+      { "name": "Lixiao Zhu" },
+      { "name": "Mae Ababneh" },
+      { "name": "Rahatul Amin Ananto", "isMe": true },
+      { "name": "Kadambari Bhujbal" },
+      { "name": "Seol Han" },
+      { "name": "Christopher Yee Wong" },
+      { "name": "AJung Moon" }
+    ],
+    "year": 2026,
+    "publicationYear": 2026,
+    "venue": "35th IEEE International Conference on Robot and Human Interactive Communication (RO-MAN 2026)",
+    "type": "conference",
+    "status": "in_press",
+    "doi": null,
+    "pdf": null,
+    "externalUrl": null,
+    "projectSlug": "robot-service"
+  },
+  {
+    "id": "roboethics-2024",
+    "title": "Roboethics for Everyone — A Hands-on Teaching Module for K-12 and Beyond",
+    "authors": [
+      { "name": "Rahatul Amin Ananto", "isMe": true },
+      { "name": "Shalaleh Rismani" },
+      { "name": "Lixiao Zhu" },
+      { "name": "Christopher Yee Wong" },
+      { "name": "AJung Moon" }
+    ],
+    "year": 2024,
+    "publicationYear": 2024,
+    "venue": "Proceedings of the Canadian Engineering Education Association (CEEA-ACEG)",
+    "type": "conference",
+    "status": "published",
+    "doi": null,
+    "pdf": null,
+    "externalUrl": null,
+    "projectSlug": "roboethics"
+  },
+  {
+    "id": "accessible-robotics-2024",
+    "title": "Perspectives on Robotic Systems for the Visually Impaired",
+    "authors": [
+      { "name": "Christopher Yee Wong" },
+      { "name": "Rahatul Amin Ananto", "isMe": true },
+      { "name": "Tanaka Akiyama" },
+      { "name": "Joseph Nemargut" },
+      { "name": "AJung Moon" }
+    ],
+    "year": 2024,
+    "publicationYear": 2024,
+    "venue": "ACM/IEEE HRI Companion 2024",
+    "type": "conference",
+    "status": "published",
+    "doi": "10.1145/3610978.3640698",
+    "pdf": null,
+    "externalUrl": null,
+    "projectSlug": "accessible-robotics"
+  },
+  {
+    "id": "loneliness-survey-2021",
+    "title": "We Can Do Better! An Initial Survey Highlighting an Opportunity for More HRI Work on Loneliness",
+    "authors": [
+      { "name": "Rahatul A. Ananto", "isMe": true },
+      { "name": "James E. Young" }
+    ],
+    "year": 2021,
+    "publicationYear": 2021,
+    "venue": "ACM/IEEE HRI Companion 2021",
+    "type": "conference",
+    "status": "published",
+    "doi": "10.1145/3434074.3447213",
+    "pdf": null,
+    "externalUrl": null,
+    "projectSlug": "social-robots-loneliness"
+  },
+  {
+    "id": "robot-pets-2020",
+    "title": "Robot Pets for Everyone: The Untapped Potential for Domestic Social Robots",
+    "authors": [
+      { "name": "Rahatul A. Ananto", "isMe": true },
+      { "name": "James E. Young" }
+    ],
+    "year": 2020,
+    "publicationYear": 2020,
+    "venue": "RO-MAN 2020 Workshop on Social Human-Robot Interaction of Human-Care Service Robots",
+    "type": "workshop",
+    "status": "published",
+    "statusNote": "Workshop contribution",
+    "doi": null,
+    "pdf": null,
+    "externalUrl": null,
+    "projectSlug": "social-robots-loneliness"
+  },
+  {
+    "id": "domestic-robots-loneliness-2020",
+    "title": "Domestic Robots for Individuals Living with Loneliness: A Long-Term In-Home Interaction Study Design",
+    "authors": [
+      { "name": "Rahatul A. Ananto", "isMe": true },
+      { "name": "Denise Y. Geiskkovitch" },
+      { "name": "James E. Young" }
+    ],
+    "year": 2020,
+    "publicationYear": 2020,
+    "venue": "Proceedings of the 8th International Conference on Human-Agent Interaction (HAI 2020)",
+    "type": "conference",
+    "status": "published",
+    "doi": "10.1145/3406499.3418749",
+    "pdf": null,
+    "externalUrl": null,
+    "projectSlug": "social-robots-loneliness"
+  },
+  {
+    "id": "mofasa-framework-2026",
+    "title": "MoFASA: Social-Appropriateness-Based Analysis Framework for Human-Robot Interaction",
+    "authors": [
+      { "name": "Rahatul Amin Ananto", "isMe": true },
+      { "name": "AJung Moon" }
+    ],
+    "year": 2026,
+    "submissionYear": 2026,
+    "venue": "ACM Transactions on Human-Robot Interaction (THRI)",
+    "type": "journal_manuscript",
+    "status": "under_review",
+    "doi": null,
+    "pdf": null,
+    "externalUrl": null,
+    "projectSlug": "mofasa"
+  },
+  {
+    "id": "behavioral-diversity-2026",
+    "title": "When Similar Behaviors Mean Different Things: Behavioral and Interpretive Diversity in In-the-Wild HRI",
+    "authors": [
+      { "name": "Rahatul Amin Ananto", "isMe": true },
+      { "name": "AJung Moon" }
+    ],
+    "year": 2026,
+    "submissionYear": 2026,
+    "venue": "Submitted to CHI 2027",
+    "type": "conference_manuscript",
+    "status": "under_review",
+    "doi": null,
+    "pdf": null,
+    "externalUrl": null,
+    "projectSlug": "hallway-interactions"
+  },
+  {
+    "id": "telepresence-collaboration-2026",
+    "title": "Deployment Over Design: How In-Person Initial Meetings Influence Later Telepresence-Robot-Mediated Collaboration",
+    "authors": [
+      { "name": "Francesca Perillo", "equalContribution": true },
+      { "name": "Rahatul Amin Ananto", "isMe": true, "equalContribution": true },
+      { "name": "Giuliana Vitiello" },
+      { "name": "AJung Moon" }
+    ],
+    "year": 2026,
+    "submissionYear": 2026,
+    "venue": "Submitted to HRI 2027",
+    "type": "conference_manuscript",
+    "status": "under_review",
+    "equalContributionNote": "Francesca Perillo and Rahatul Amin Ananto contributed equally.",
+    "doi": null,
+    "pdf": null,
+    "externalUrl": null,
+    "projectSlug": "telepresence-collaboration"
+  },
+  {
+    "id": "mofasa-tools-2026",
+    "title": "MoFASA Tools — Practitioner-Driven HRI Analysis Tool Development",
+    "authors": [
+      { "name": "Rahatul Amin Ananto", "isMe": true },
+      { "name": "AJung Moon" }
+    ],
+    "year": 2026,
+    "submissionYear": null,
+    "venue": null,
+    "type": "manuscript",
+    "status": "in_preparation",
+    "statusNote": "Working manuscript title",
+    "doi": null,
+    "pdf": null,
+    "externalUrl": null,
+    "projectSlug": "mofasa-tools"
+  },
+  {
+    "id": "msc-thesis-2022",
+    "title": "Can Robots Help with Loneliness? An Exploration of Social Robot Adoption by Lonely Individuals",
+    "authors": [
+      { "name": "Rahatul A. Ananto", "isMe": true }
+    ],
+    "year": 2022,
+    "publicationYear": 2022,
+    "venue": "University of Manitoba",
+    "type": "thesis",
+    "status": "completed",
+    "typeLabel": "Master of Science thesis",
+    "doi": null,
+    "pdf": null,
+    "externalUrl": "https://hci.cs.umanitoba.ca/assets/publication_files/MscThesis-Ananto_Rahatul_Amin.pdf",
+    "projectSlug": "social-robots-loneliness"
+  }
+]

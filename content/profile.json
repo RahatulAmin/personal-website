@@ -1,0 +1,11 @@
+{
+  "intro": "I'm Rahatul Ananto, an HRI researcher interested in the different ways people experience robots.",
+  "perspective": "People do not experience robots in the same way. What feels intuitive, helpful, or appropriate to one person may feel unexpected or uncomfortable to another. My research examines these differences and asks what they reveal about how we design robotic systems.",
+  "education": [
+    {"title":"PhD research · Human–Robot Interaction","institution":"McGill University","description":"Behavioral diversity, social appropriateness, telepresence, and inclusive human–robot interaction."},
+    {"title":"MSc research · Social robotics","institution":"University of Manitoba","description":"Long-term social robot use in home environments and experiences of loneliness."},
+    {"title":"Undergraduate research · Autonomous robotics","institution":"BRAC University","description":"Autonomous underwater vehicle development and competition-oriented robotics."}
+  ],
+  "methods": ["Human-subject research", "Mixed-methods empirical inquiry", "Behavioral observation and interviews", "Real-world robot deployments", "Framework and research-tool development"],
+  "software": ["React and TypeScript", "Electron", "SQLite", "Local LLM integration through Ollama" ]
+}

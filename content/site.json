@@ -1,0 +1,25 @@
+{
+  "name": "Rahatul Amin Ananto",
+  "fullName": "Rahatul Amin Ananto",
+  "description": "Human–Robot Interaction research on behavioral diversity, social appropriateness, and more inclusive robotic systems.",
+  "affiliation": "PhD Researcher · McGill University · Montréal",
+  "sidebar": {
+    "position": "PhD Candidate, McGill University",
+    "role": "Human–Robot Interaction Researcher,",
+    "lab": "Raise Lab",
+    "summary": "I study how people experience robots differently, and how those differences can guide more inclusive design."
+  },
+  "url": "https://www.rahatulamin.com",
+  "email": "rahatul.ananto@mcgill.ca",
+  "location": "Montréal, Canada",
+  "cv": {
+    "url": "/documents/Rahatul_Ananto_CV.pdf",
+    "filename": "Rahatul_Ananto_CV.pdf",
+    "lastUpdated": "September 25, 2026"
+  },
+  "social": {
+    "linkedin": null,
+    "googleScholar": null,
+    "github": null
+  }
+}

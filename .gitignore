@@ -1,0 +1,10 @@
+node_modules/
+.next/
+out/
+tmp/
+*.tsbuildinfo
+.env*.local
+CONTENT_AUDIT.md
+CONTENT_TODO.md
+DESIGN_REVIEW.md
+MISSING_IMAGES.md

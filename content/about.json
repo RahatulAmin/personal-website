@@ -1,0 +1,84 @@
+{
+  "eyebrow": "About",
+  "heading": "Hello, I'm Rahat.",
+  "introduction": [
+    "I'm a human–robot interaction researcher interested in the different ways people experience robots. What feels intuitive, helpful, or socially appropriate to one person may feel unexpected or uncomfortable to another.",
+    "My work examines those differences and asks what they can teach us about designing robotic systems that respond more thoughtfully to the people around them."
+  ],
+  "portrait": {
+    "src": "/images/about/portrait.jpeg",
+    "alt": "Portrait of Rahatul Ananto",
+    "label": "Portrait photograph needed",
+    "note": "A natural, candid portrait works best here."
+  },
+  "journey": {
+    "heading": "My journey",
+    "paragraphs": [
+      "I began working with robots as an undergraduate at BRAC University, where my focus was on building autonomous systems. That work included underwater robotics: developing systems that had to sense, decide, and act in a demanding physical environment.",
+      "During my MSc at the University of Manitoba, my attention shifted toward the people living with robotic systems. I studied social robotic pets and loneliness, including how people understood, adopted, and experienced robots over time in their homes.",
+      "Now, as a PhD researcher at McGill University, I investigate behavioral diversity, social appropriateness, and human experiences with robots. My work still draws on system building, but the central questions are about people: how experiences differ, what those differences mean, and how HRI research can account for them without reducing everyone to an average user."
+    ]
+  },
+  "practice": {
+    "heading": "Research in practice",
+    "introduction": "My research moves between real-world observation, controlled study design, and the tools needed to make sense of human–robot interaction.",
+    "activities": [
+      "Conduct field studies",
+      "Design controlled experiments",
+      "Deploy robotic systems",
+      "Analyze human behavior",
+      "Develop research frameworks",
+      "Build research software"
+    ],
+    "images": [
+      {
+        "src": null,
+        "alt": "Rahat conducting a human–robot interaction study",
+        "label": "Research activity photograph needed",
+        "note": "Use a field study or participant-session photograph."
+      },
+      {
+        "src": null,
+        "alt": "A robotic system deployed during Rahat's research",
+        "label": "Robot deployment photograph needed",
+        "note": "Use an image of an actual research platform or setup."
+      }
+    ]
+  },
+  "collaboration": {
+    "heading": "What I bring to a collaboration",
+    "paragraph": "I work across empirical research and technical development. That means I can help shape a research question, plan and run a study, work directly with robotic systems, and build frameworks or software that support the analysis. I value collaborations where these perspectives can inform one another."
+  },
+  "beyond": {
+    "heading": "Beyond research",
+    "paragraph": "Outside research, I spend time with photography, illustration and painting, biking, travel, and software or creative projects. They give me different ways to observe, make, and explore ideas.",
+    "images": [
+      {
+        "src": null,
+        "alt": "A personal photograph by Rahatul Ananto",
+        "label": "Personal photograph needed",
+        "note": "Photography, travel, or an everyday observation."
+      },
+      {
+        "src": null,
+        "alt": "An illustration or painting by Rahatul Ananto",
+        "label": "Artwork needed",
+        "note": "An illustration, sketch, or painting."
+      },
+      {
+        "src": null,
+        "alt": "A personal creative project by Rahatul Ananto",
+        "label": "Personal project image needed",
+        "note": "A biking, software, or creative-project image."
+      }
+    ]
+  },
+  "timeline": {
+    "heading": "Experience",
+    "entries": [
+      { "institution": "McGill University", "degree": "PhD, HRI" },
+      { "institution": "University of Manitoba", "degree": "MSc, Computer Science" },
+      { "institution": "BRAC University", "degree": "BSc, Computer Science" }
+    ]
+  }
+}

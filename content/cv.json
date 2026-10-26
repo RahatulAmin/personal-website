@@ -1,0 +1,134 @@
+{
+  "eyebrow": "Curriculum vitae",
+  "heading": "Experience & background.",
+  "introduction": "Research, robotics, and software development — from understanding how people interact with technology to building and evaluating robotic systems.",
+  "researchExperience": [
+    {
+      "role": "PhD Researcher",
+      "institution": "McGill University",
+      "location": "Montréal, Canada",
+      "dates": "January 2022 – Present",
+      "description": "Human–Robot Interaction research at the RAISE Lab, supervised by Dr. AJung Moon.",
+      "highlights": [
+        "In-the-wild robotic deployments",
+        "Controlled human-subject studies",
+        "Behavioral diversity and social appropriateness",
+        "Telepresence robotics",
+        "Empirical data analysis",
+        "Research framework development",
+        "Research software and tools"
+      ]
+    },
+    {
+      "role": "Graduate Research Assistant",
+      "institution": "University of Manitoba",
+      "location": "Winnipeg, Canada",
+      "dates": "September 2019 – February 2022",
+      "description": "Human–Robot Interaction research supervised by Dr. James E. Young.",
+      "highlights": [
+        "Long-term in-home social-robot studies",
+        "Human-subject research",
+        "Domestic robot adoption and loneliness",
+        "Study design and deployment",
+        "Interviews and qualitative analysis"
+      ]
+    },
+    {
+      "role": "Undergraduate Robotics Research",
+      "institution": "BRAC University",
+      "location": "Dhaka, Bangladesh",
+      "dates": "2016 – 2017",
+      "description": "Undergraduate robotics research supervised by Dr. Amitabha Chakrabarty.",
+      "highlights": [
+        "Autonomous underwater robotics",
+        "Robotic system development",
+        "Competition-oriented robotics"
+      ]
+    }
+  ],
+  "industryExperience": [
+    {
+      "role": "Associate Software Engineer, Quality Assurance",
+      "institution": "THERAP Bangladesh Ltd.",
+      "location": "Bangladesh",
+      "dates": "January 2019 – August 2019"
+    },
+    {
+      "role": "Junior QA Engineer",
+      "institution": "Sourcetop Inc.",
+      "location": "Dhaka, Bangladesh",
+      "dates": "January 2018 – December 2018"
+    }
+  ],
+  "education": [
+    {
+      "degree": "PhD — Electrical and Computer Engineering",
+      "institution": "McGill University",
+      "dates": "2022 – Present",
+      "focus": "Human–Robot Interaction"
+    },
+    {
+      "degree": "MSc — Computer Science",
+      "institution": "University of Manitoba",
+      "dates": "2019 – 2022",
+      "focus": "Domestic social robots and loneliness"
+    },
+    {
+      "degree": "BSc — Computer Science",
+      "institution": "BRAC University",
+      "dates": "2014 – 2017",
+      "focus": "Underwater robotics and software engineering"
+    }
+  ],
+  "skills": [
+    {
+      "category": "Research & Methods",
+      "items": ["Human–Robot Interaction", "Human-subject research", "Experimental design", "In-the-wild robot deployment", "Mixed-methods research", "Behavioral observation", "Qualitative coding", "Statistical analysis", "Mixed-effects modeling", "Inter-rater reliability"]
+    },
+    {
+      "category": "Robotics",
+      "items": ["ROS2", "SLAM", "Autonomous navigation", "Telepresence robotics", "Robot prototyping"]
+    },
+    {
+      "category": "Software & AI",
+      "items": ["Python", "JavaScript / TypeScript", "React", "Electron", "SQLite", "Git", "Ollama", "Local LLM integration", "Research data pipelines", "LLM-assisted analysis tools"]
+    }
+  ],
+  "service": [
+    {
+      "role": "Administrative Teaching Assistant, ECSE211 Design Principles and Methods",
+      "dates": "Fall 2026"
+    },
+    {
+      "role": "Head Teaching Assistant, ECSE211 Design Principles and Methods",
+      "dates": "Winter & Fall 2025 · Winter 2026"
+    },
+    {
+      "role": "Teaching Assistant, ECSE211 Design Principles and Methods",
+      "dates": "Fall 2022 · Winter & Fall 2023–2024"
+    },
+    {
+      "role": "Undergraduate Capstone Project Supervisor",
+      "dates": "February – December 2026"
+    },
+    {
+      "role": "Roboethics workshops and educational activities",
+      "dates": "2022 – 2026"
+    },
+    {
+      "role": "Academic peer review — HRI, HAI, THRI, and JRIE",
+      "dates": "2020 – 2026"
+    }
+  ],
+  "recognition": [
+    { "name": "Vadasz Scholar / McGill Engineering Doctoral Award", "institution": "McGill University", "dates": "2022 – 2025" },
+    { "name": "Computer Science Entrance Award", "institution": "University of Manitoba", "dates": "2019 – 2021" },
+    { "name": "Bangladesh–Sweden Trust Fund Travel Scholarship", "institution": "Bangladesh–Sweden Trust Fund", "dates": "2019" },
+    { "name": "Vice Chancellor's List", "institution": "BRAC University", "dates": "2016, 2017" },
+    { "name": "Dean's List", "institution": "BRAC University", "dates": "2016" }
+  ],
+  "outputs": {
+    "heading": "Publications & Research Outputs",
+    "introduction": "Peer-reviewed publications, manuscripts, and research contributions are maintained in the complete bibliography."
+  }
+}
