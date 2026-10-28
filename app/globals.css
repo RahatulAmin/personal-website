@@ -46,7 +46,7 @@ em { font-style: normal; }
 .work.wrap { width: calc(100% - 32px); max-width: 800px; margin-left: 16px; margin-right: auto; padding-block: 68px 120px; }
 .home-section { scroll-margin-top: 28px; }
 .single-page > .home-section + .home-section { border-top: 1px solid #eeeeeb; }
-.intro-section { display: flex; align-items: center; min-height: 82vh; }
+.page.intro-section { display: flex; align-items: center; min-height: auto; padding-bottom: 40px; }
 .intro-section .about-opening { width: 100%; }
 .intro-section + .work.wrap { padding-top: 42px; }
 .section-heading { margin-bottom: 48px; }
@@ -360,7 +360,7 @@ video { width: 100%; display: block; }
   .header nav a { padding-block: 6px; }
   .sidebar-meta { display: none; }
   .work.wrap { padding-top: 18px; }
-  .intro-section { min-height: auto; padding-block: 56px 72px; }
+  .intro-section { padding-block: 56px 48px; }
   .intro-section + .work.wrap { padding-top: 24px; }
   .home-section { scroll-margin-top: 20px; }
   .section-heading { margin: 30px 0 40px; }
@@ -390,7 +390,7 @@ video { width: 100%; display: block; }
   .header nav { width: 100%; gap: 5px 18px; font-size: 12px; }
   .header nav a { min-height: 0; padding-block: 5px; }
   .work.wrap { width: calc(100% - 28px); margin-inline: 14px; padding: 14px 0 55px; }
-  .intro-section { padding-block: 42px 62px; }
+  .intro-section { padding-block: 42px; }
   .intro-section + .work.wrap { padding-top: 18px; }
   .section-heading { margin: 28px 4px 34px; }
   .section-heading h2 { font-size: 38px; }
@@ -433,7 +433,7 @@ video { width: 100%; display: block; }
   .publication-entry h2 { font-size: 19px; }
   .publication-authors { font-size: 12px; }
   .about-opening { grid-template-columns: 1fr; gap: 37px; }
-  .about-portrait { width: 68%; max-width: 260px; margin-left: auto; }
+  .about-portrait { width: 68%; max-width: 260px; margin: 0; justify-self: start; }
   .about-story, .about-personal>.about-section-copy, .about-collaboration, .about-experience { display: block; }
   .about-story, .about-personal, .about-collaboration, .about-experience { margin-top: 72px; }
   .about-story h2, .about-personal h2, .about-collaboration h2 { margin-bottom: 23px; }
