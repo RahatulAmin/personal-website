@@ -128,7 +128,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
                   <p>{[publication.venue, publication.year].filter(Boolean).join(' · ')}</p>
                   {publication.equalContributionNote && <p className="output-note">{publication.equalContributionNote}</p>}
                   <div className="output-links">
-                    <Link className="text-link" href={`/publications#${publication.id}`}>Publication record ↗</Link>
+                    <Link className="text-link" href={`/#${publication.id}`}>Publication record ↗</Link>
                     {publication.doi && <a className="text-link" href={`https://doi.org/${publication.doi}`} rel="noreferrer" target="_blank">DOI ↗</a>}
                     {publication.externalUrl && <a className="text-link" href={publication.externalUrl} rel="noreferrer" target="_blank">Open source ↗</a>}
                     {publication.pdf && <a className="text-link" href={publication.pdf} target="_blank">PDF ↗</a>}
