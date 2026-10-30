@@ -1,6 +1,6 @@
 # Rahatul Ananto · Research portfolio
 
-A gallery-led research portfolio built with Next.js App Router, TypeScript, optional local MDX narratives, and validated JSON content. All 11 public projects appear in a continuous homepage gallery and have statically generated case-study pages. There is no paid CMS or backend.
+A gallery-led research portfolio built with Next.js App Router, TypeScript, optional local MDX narratives, and validated JSON content. Six selected projects appear initially; a full-width accordion opens the remaining work. Project case studies expand inline on the homepage, while statically generated legacy URLs return visitors to the matching inline project. There is no paid CMS or backend.
 
 ## Local development
 
@@ -40,8 +40,8 @@ The site includes metadata, an Open Graph image, robots.txt, and a domain-depend
 
 ## Architecture
 
-`lib/content.ts` validates metadata with Zod and exposes a single ordered public project list. Homepage, project index, static route generation, sitemap, and adjacent-project navigation use that same list. Titles never determine order, identity, or routing. Both `published` and `showOnHomepage` must be true for a project to appear publicly. Hiding a project removes it from public routes as well as listings.
+`lib/content.ts` validates metadata with Zod and exposes a single ordered public project list. The homepage gallery, inline case studies, project index, static legacy routes, and sitemap use that same list. Titles never determine order, identity, or routing. Both `published` and `showOnHomepage` must be true for a project to appear publicly. Hiding a project removes it from public routes as well as listings.
 
-The first five PhD contributions lead the continuous portfolio. Each project's `composition` metadata controls its width, starting column, vertical offset, desktop aspect ratio, and mobile ratio. The gallery uses normal grid flow, preserving DOM, visual, and keyboard order. No index-based alternating layout rules are used. Semantic HTML, focus states, a skip link, labeled navigation, and reduced-motion support are included.
+The first five PhD contributions lead the continuous portfolio. Each project's `composition` metadata controls its desktop and mobile image ratios. The gallery uses normal grid flow, preserving DOM, visual, and keyboard order; an expanded project spans both columns and pushes later work down. Semantic buttons, focus states, a skip link, labeled navigation, and reduced-motion support are included.
 
 The redesign follows observations from the live Banter reference: bold condensed display type, sparse navigation, off-center large media, mixed portrait/landscape framing, and minimal captions. It uses original code and no template photographs, logo, or source assets. See `DESIGN_REVIEW.md` for observations and verification.

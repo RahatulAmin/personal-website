@@ -45,7 +45,7 @@ export function MainNavigation() {
   }, [pathname]);
 
   return (
-    <nav aria-label="Main navigation">
+    <nav className="main-navigation" aria-label="Main navigation">
       {links.map(link => {
         const isActive = pathname === '/'
           ? activeSection === link.id

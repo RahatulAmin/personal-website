@@ -94,7 +94,7 @@
       "items": ["Python", "JavaScript / TypeScript", "React", "Electron", "SQLite", "Git", "Ollama", "Local LLM integration", "Research data pipelines", "LLM-assisted analysis tools"]
     }
   ],
-  "service": [
+  "teaching": [
     {
       "role": "Administrative Teaching Assistant, ECSE211 Design Principles and Methods",
       "dates": "Fall 2026"
@@ -114,7 +114,9 @@
     {
       "role": "Roboethics workshops and educational activities",
       "dates": "2022 – 2026"
-    },
+    }
+  ],
+  "academicService": [
     {
       "role": "Academic peer review — HRI, HAI, THRI, and JRIE",
       "dates": "2020 – 2026"

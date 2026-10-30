@@ -14,12 +14,18 @@ const composition = z.object({
   mobileRatio: z.number().min(0.75).max(3).default(1.3),
 }).refine(value => value.start + value.span <= 13, 'Gallery placement must fit the 12-column grid');
 const projectMetric = z.object({ value: z.string().min(1), label: z.string().min(1) });
+const inlineProjectStory = z.object({
+  question: z.string().min(1),
+  metrics: z.array(projectMetric).max(3).default([]),
+  groups: z.array(z.object({ heading: z.string().min(1), body: z.string().min(1) })).min(2).max(3),
+});
 export const projectSchema = z.object({
   id: z.string().min(1), slug: z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/), order: z.number().int().positive(),
   title: z.string().min(1), internalName: z.string(), category: z.string(), period: z.string(), year: z.string().min(4), published: z.boolean(), showOnHomepage: z.boolean(),
   layout: z.enum(['wide','regular','portrait']), visual: z.string(), accent: z.string().regex(/^#[0-9a-fA-F]{6}$/), summary: z.string(),
   researchTitle: z.string().nullable().default(null),
   contentMode: z.enum(['field','experiment','framework','software','education','longitudinal','perspective','engineering','proposal']).default('field'),
+  inline: inlineProjectStory,
   researchQuestion: z.string().min(1), motivation: z.string().min(1),
   methods: z.array(z.string().min(1)).default([]), metrics: z.array(projectMetric).default([]),
   findings: z.array(z.string().min(1)).default([]), contributions: z.array(z.string().min(1)).min(1),
@@ -75,7 +81,6 @@ const aboutSchema = z.object({
     familyImages: z.array(aboutImageSchema),
     photographyImages: z.array(aboutImageSchema),
   }),
-  collaboration: z.object({ heading: z.string(), paragraph: z.string() }),
   timeline: z.object({ heading: z.string(), entries: z.array(z.object({ institution: z.string(), degree: z.string() })) }),
 });
 export const about = aboutSchema.parse(aboutData);
@@ -87,10 +92,12 @@ const cvSchema = z.object({
   industryExperience: z.array(datedEntry),
   education: z.array(z.object({ degree: z.string(), institution: z.string(), dates: z.string(), focus: z.string() })),
   skills: z.array(z.object({ category: z.string(), items: z.array(z.string()) })),
-  service: z.array(z.object({ role: z.string(), dates: z.string() })),
+  teaching: z.array(z.object({ role: z.string(), dates: z.string() })),
+  academicService: z.array(z.object({ role: z.string(), dates: z.string() })).default([]),
   recognition: z.array(z.object({ name: z.string(), institution: z.string(), dates: z.string() })),
   outputs: z.object({ heading: z.string(), introduction: z.string() }),
 });
+export type Cv = z.infer<typeof cvSchema>;
 export const cv = cvSchema.parse(cvData);
 const publicationSchema = z.object({
   id: z.string().min(1),

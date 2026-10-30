@@ -19,6 +19,19 @@
     "institution": "McGill University",
     "role": "First author and lead field researcher",
     "status": "Manuscript under review",
+    "inline": {
+      "question": "Why did people respond so differently to the same hallway robot, and what did those responses reveal about how they understood the encounter?",
+      "metrics": [
+        { "value": "1,671", "label": "recorded encounters" },
+        { "value": "51", "label": "post-encounter interviews" },
+        { "value": "2", "label": "field deployments" }
+      ],
+      "groups": [
+        { "heading": "Approach", "body": "Across two university-hallway deployments, I observed naturally occurring robot encounters, coded visible responses, and conducted post-encounter interviews. Comparing face and eye displays let us examine behavior alongside how passersby interpreted the robot's agency, purpose, physical state, and movement." },
+        { "heading": "Finding", "body": "Similar actions did not carry a single meaning. Giving way, stopping, or watching could reflect uncertainty, care for a remote operator, concern about fragility, or expectations about movement. Visual cues reduced some ambiguity, but did not produce one shared interpretation." },
+        { "heading": "My Role", "body": "I conducted the deployments, contributed to coding and data processing, led the interpretive analysis, and developed the first-author manuscript with my supervisor." }
+      ]
+    },
     "researchQuestion": "Why do people respond differently when they unexpectedly encounter the same robot in a public hallway, and what do those differences reveal about how they interpreted the encounter?",
     "motivation": "A visible response does not explain itself. Giving a robot extra space might reflect uncertainty about its motion, concern that it is fragile, consideration for a remote operator, or an attempt to avoid interrupting its task. Treating those actions as interchangeable can hide the different meanings people assign to a robot and the situation around it.",
     "metrics": [
@@ -81,6 +94,18 @@
     "institution": "McGill University",
     "role": "Equal first author; experimental and analytical contributor",
     "status": "Manuscript under review",
+    "inline": {
+      "question": "How does collaborating through a telepresence robot change communication, participant roles, and the influence of meeting through one medium before the other?",
+      "metrics": [
+        { "value": "32", "label": "collaborating pairs" },
+        { "value": "2", "label": "counterbalanced conditions" }
+      ],
+      "groups": [
+        { "heading": "Approach", "body": "Pairs completed collaborative puzzles and escape-room activities both face-to-face and through an Ohmni robot. Counterbalanced conditions, behavioral observations, questionnaires, interviews, and language measures let us compare the media while distinguishing the remote teleoperator from the collocated partner." },
+        { "heading": "Finding", "body": "Robot mediation reorganized conversation rather than reproducing in-person collaboration. Turn-taking became more frequent and fragmented in one condition order, and some of that rhythm carried into the later face-to-face task. The two participant roles also experienced the mediated interaction differently." },
+        { "heading": "My Role", "body": "As an equal first author, I contributed to the experiment, analysis, interpretation of communication and order effects, and manuscript development." }
+      ]
+    },
     "researchQuestion": "How does collaborating through a telepresence robot change communication and participant experience compared with face-to-face collaboration, and how does the order of those experiences matter?",
     "motivation": "A telepresence robot provides sight, sound, and mobility, but it does not recreate the grounding resources of sharing a room. The remote operator and the collocated partner also occupy different positions in the interaction. This study examined the communication work each person performed rather than treating robot mediation as a neutral video link.",
     "metrics": [
@@ -125,7 +150,7 @@
   {
     "id": "secondary-user-study",
     "slug": "secondary-users",
-    "order": 3,
+    "order": 6,
     "title": "Beyond the Robot's Primary User",
     "internalName": "Secondary User Study",
     "researchTitle": "Understanding Social Appropriateness Perceptions in Secondary Users of Domestic Robots",
@@ -142,6 +167,18 @@
     "institution": "McGill University",
     "role": "First author",
     "status": "Published at HRI Companion 2026",
+    "inline": {
+      "question": "How do people who share a home with a robot, without owning or controlling it, judge whether its behavior is appropriate?",
+      "metrics": [
+        { "value": "90", "label": "workshop participants" },
+        { "value": "18", "label": "five-person groups" }
+      ],
+      "groups": [
+        { "heading": "Approach", "body": "In two exploratory workshops, groups designed rules for a domestic fetch robot, challenged one another with problematic household scenarios, and role-played household members and the robot. Thematic analysis focused on how prospective secondary users explained appropriateness, not merely whether a rule was followed." },
+        { "heading": "Finding", "body": "Participants judged behavior through safety, ownership, household roles, culture, relationships, urgency, care, and consent. A robot could obey its owner's rule and still act inappropriately toward someone else, showing that household appropriateness is relational rather than fixed by one user." },
+        { "heading": "My Role", "body": "I led the research synthesis and first-author manuscript, connecting the workshop evidence to multi-user domestic robot design." }
+      ]
+    },
     "researchQuestion": "How do people who may live with a domestic robot, but may not own or control it, evaluate the social appropriateness of its behavior?",
     "motivation": "Domestic robots enter homes governed by relationships, privacy, authority, and individual boundaries. Owners may configure a robot's rules, yet partners, children, relatives, caregivers, and guests must live with the consequences. Designing only for the primary user can make those secondary users invisible.",
     "metrics": [
@@ -194,7 +231,7 @@
   {
     "id": "mofasa-framework",
     "slug": "mofasa",
-    "order": 4,
+    "order": 7,
     "title": "Understanding Social Appropriateness with MoFASA",
     "internalName": "MoFASA Framework",
     "researchTitle": "MoFASA: Social-Appropriateness-Based Analysis Framework for Human-Robot Interaction",
@@ -211,6 +248,18 @@
     "institution": "McGill University",
     "role": "First author and framework developer",
     "status": "Under review at ACM THRI",
+    "inline": {
+      "question": "How can researchers build evidence-grounded explanations for why individual human-robot interaction cases unfold differently?",
+      "metrics": [
+        { "value": "15", "label": "independently analyzed cases" },
+        { "value": "12 / 15", "label": "convergent interpretations" }
+      ],
+      "groups": [
+        { "heading": "Approach", "body": "MoFASA connects evidence about a person's situation and identity to their definition of the interaction, plausible rules or expectations, and observed response. The pathway preserves individual cases without claiming direct access to unobserved reasoning or reducing behavior to a taxonomy." },
+        { "heading": "Contribution", "body": "Two researchers independently applied the framework to 15 interview-supported hallway cases. Twelve pathways converged, while disagreements exposed where analysts interpreted evidence differently or framed the interaction at different scopes. The result is a structured, inspectable qualitative procedure rather than a prediction model." },
+        { "heading": "My Role", "body": "I developed the framework and application procedure, designed its methodological demonstration and evaluation, and led the first-author manuscript." }
+      ]
+    },
     "researchQuestion": "How can researchers move from observing different human responses to constructing evidence-grounded explanations of how a person understood a robot and the situation?",
     "motivation": "Population-level patterns can show that people responded differently, but an average does not explain a particular case. The Five Factors of Social Appropriateness catalogues relevant HRI factors, while the Logic of Appropriateness structures how identity and a definition of the situation inform a decision. Neither alone provides the complete individual-centered analytical workflow needed here.",
     "metrics": [
@@ -256,7 +305,7 @@
   {
     "id": "mofasa-tools",
     "slug": "mofasa-tools",
-    "order": 5,
+    "order": 8,
     "title": "From Research to Practice using MoFASA Tools",
     "internalName": "MoFASA Tools",
     "researchTitle": "MoFASA Tools - Practitioner-Driven HRI Analysis Tool Development",
@@ -273,6 +322,15 @@
     "institution": "McGill University",
     "role": "Lead software developer and first author",
     "status": "Software artifact; manuscript in preparation",
+    "inline": {
+      "question": "How can software support consistent MoFASA analysis while keeping source evidence, interpretation, and analyst judgment visible?",
+      "metrics": [],
+      "groups": [
+        { "heading": "Built", "body": "I built a desktop research application using Electron, React, TypeScript-oriented components, and SQLite. It organizes projects and participants, guides factor mapping and case pathways, supports local Ollama-assisted summaries, and exports analysis material without requiring qualitative data to leave the researcher's machine." },
+        { "heading": "Capabilities", "body": "Case views keep evidence connected to pathway decisions. Cross-participant views support Personae Mapping, Behavioral Diversity Analysis, counterfactual comparison, and Situation Design. The software operationalizes the framework's workflow; it does not replace analyst interpretation or independently validate the underlying method." },
+        { "heading": "My Role", "body": "I designed and implemented the application, data model, local AI integration, comparison views, exports, and the accompanying manuscript in preparation." }
+      ]
+    },
     "researchQuestion": "How can software support consistent MoFASA analysis while keeping evidence, interpretation, and analyst judgment visible?",
     "motivation": "Applying a structured qualitative framework across many cases requires more than a diagram. Analysts need to organize projects and participants, document evidence, map factors, preserve pathway decisions, compare cases, and export results without losing the reasoning that connects each step.",
     "metrics": [
@@ -318,7 +376,7 @@
   {
     "id": "robot-service",
     "slug": "robot-service",
-    "order": 6,
+    "order": 3,
     "title": "When Robots Become Service Providers",
     "internalName": "Robots in Service Environments",
     "researchTitle": "Would the Robot Cheapen Your Croissant? How Robots Impact Brand, Service and Quality Perception",
@@ -335,6 +393,15 @@
     "institution": "McGill University",
     "role": "Collaborative field-study contributor",
     "status": "In press at IEEE RO-MAN 2026",
+    "inline": {
+      "question": "How does robot-mediated service shape perceptions of service quality, the product being served, and the associated brand?",
+      "metrics": [],
+      "groups": [
+        { "heading": "Approach", "body": "A collaborative cafe study compared robot and human service conditions while varying service quality. Rather than evaluating the robot in isolation, the study measured judgments across the coupled experience: the interaction, the service, the product, and the brand connected to it." },
+        { "heading": "Finding", "body": "A robot server can influence evaluations beyond its own technical performance. Separating service, product, and brand perceptions shows why completing a delivery successfully does not fully describe the customer-facing consequences of introducing a robot into a service encounter." },
+        { "heading": "My Role", "body": "I contributed as a member of the collaborative field-study team and as a co-author of the in-press publication." }
+      ]
+    },
     "researchQuestion": "How does robot-mediated service affect perceptions of service quality, the product being served, and the associated brand?",
     "motivation": "A service robot is not judged only as a machine. Its behavior can become part of a customer's assessment of the service encounter and may spill over into judgments about the product and organization represented by that robot.",
     "metrics": [],
@@ -370,7 +437,7 @@
   {
     "id": "roboethics",
     "slug": "roboethics",
-    "order": 7,
+    "order": 5,
     "title": "Making Roboethics Accessible",
     "internalName": "Roboethics for Everyone",
     "researchTitle": "Roboethics for Everyone - A Hands-on Teaching Module for K-12 and Beyond",
@@ -387,6 +454,15 @@
     "institution": "McGill University",
     "role": "First author; competition technical lead and workshop contributor",
     "status": "Published at CEEA-ACEG 2024",
+    "inline": {
+      "question": "How can learners reason about the ethical consequences of robot behavior without needing robotics or programming experience?",
+      "metrics": [],
+      "groups": [
+        { "heading": "Approach", "body": "We translated experience from the IEEE ICRA Roboethics Competition into three instructor-ready modules. Learners identify stakeholders and value tensions, create difficult household scenarios, compare robot policies, and evaluate consequences using either paper materials or an optional simulation." },
+        { "heading": "Outcome", "body": "A high-school workshop showed that participants could identify ethical concerns and critique behavior-design choices without advanced technical training. Familiar fetch scenarios shifted attention away from finding one correct algorithm and toward who is affected, which values conflict, and how harms and benefits are distributed." },
+        { "heading": "My Role", "body": "I led the publication, served as Technical Lead for the 2022 and 2023 competitions, and helped develop and deliver the activities." }
+      ]
+    },
     "researchQuestion": "How can learners without specialized robotics or engineering experience reason meaningfully about the ethical consequences of robot behavior?",
     "motivation": "Roboethics is often taught through abstract principles or technical systems that create their own access barriers. The project reframed ethics as a hands-on design activity built around familiar social dilemmas, allowing participants to focus on stakeholders, values, consequences, and trade-offs.",
     "metrics": [
@@ -430,7 +506,7 @@
   {
     "id": "social-robots-loneliness",
     "slug": "social-robots-loneliness",
-    "order": 8,
+    "order": 4,
     "title": "Can Robots Help with Loneliness?",
     "internalName": "Social Robots and Loneliness",
     "researchTitle": "Can Robots Help with Loneliness? An Exploration of Social Robot Adoption by Lonely Individuals",
@@ -447,6 +523,18 @@
     "institution": "University of Manitoba",
     "role": "Lead MSc researcher",
     "status": "Completed MSc thesis",
+    "inline": {
+      "question": "How do people experiencing loneliness adopt, reshape, or abandon relationships with social robotic pets during long-term home use?",
+      "metrics": [
+        { "value": "8 weeks", "label": "in-home deployment" },
+        { "value": "4", "label": "participants" }
+      ],
+      "groups": [
+        { "heading": "Approach", "body": "Four participants lived with social robotic dogs for eight weeks. I managed the home deployments, conducted interviews across the study, and examined adoption as an evolving individual process shaped by expectations, routines, relationships, technical friction, and disengagement." },
+        { "heading": "Finding", "body": "Adoption paths diverged: the same robot became a companion-like presence, a temporary novelty, or an interaction not worth sustaining. Some participants reported improved mood, but this small exploratory study did not establish that robotic pets reduced loneliness." },
+        { "heading": "My Role", "body": "I designed and conducted the study, managed deployments, analyzed the individual adoption accounts, and wrote the MSc thesis and related first-author work." }
+      ]
+    },
     "researchQuestion": "How do individuals experiencing loneliness adopt and experience social robotic pets during long-term use in their own homes?",
     "motivation": "Short laboratory encounters cannot show whether a social robot becomes part of daily life. Studying adoption at home made it possible to observe how expectations, routines, relationships, technical friction, and disengagement developed over time.",
     "metrics": [
@@ -508,6 +596,15 @@
     "institution": "McGill University",
     "role": "Collaborative co-author",
     "status": "Published at HRI Companion 2024",
+    "inline": {
+      "question": "Which assumptions can lead roboticists away from the actual abilities, needs, and established practices of people with visual impairments?",
+      "metrics": [],
+      "groups": [
+        { "heading": "Approach", "body": "The perspective synthesizes two Canadian focus groups with people with visual impairments and collaboration with a Certified Orientation and Mobility Specialist. We examined assistive and service-robot concepts through accessibility, rehabilitation practice, inclusive design, and universal design." },
+        { "heading": "Outcome", "body": "Visual impairment is varied and should not be equated with total blindness or constant need for assistance. Robotic replacements can add cost or burden where established tools already work, while touchscreen-first interfaces can introduce new barriers. Support should preserve independence and offer multimodal access." },
+        { "heading": "My Role", "body": "I contributed to the collaborative analysis and publication connecting focus-group evidence, rehabilitation expertise, and HRI design practice." }
+      ]
+    },
     "researchQuestion": "What assumptions can lead roboticists away from the actual needs, abilities, and established practices of blind and visually impaired people?",
     "motivation": "Assistive-robot concepts can begin with an imagined deficit rather than the varied abilities and tools people already use. That framing risks replacing effective practices, offering unwanted help, or adding inaccessible interfaces to systems intended to support accessibility.",
     "metrics": [
@@ -574,6 +671,18 @@
     "institution": "BRAC University",
     "role": "Core undergraduate robotics team member",
     "status": "Completed engineering project",
+    "inline": {
+      "question": "How can a student team integrate perception, control, software, and hardware into an autonomous vehicle that operates reliably underwater?",
+      "metrics": [
+        { "value": "7th", "label": "SAUVC 2018 placement" },
+        { "value": "43", "label": "international teams" }
+      ],
+      "groups": [
+        { "heading": "Built", "body": "As a core member of BRACU Duburi, I worked across robotic-system development, underwater perception, control, integration, and iterative physical testing. The team prepared an autonomous underwater vehicle for the 2018 Singapore Autonomous Underwater Vehicle Challenge." },
+        { "heading": "Outcome", "body": "The integrated vehicle competed successfully and placed seventh among 43 teams from 13 countries. The project established my practical foundation in making sensing, control, software, and hardware work together under environmental and competition constraints." },
+        { "heading": "My Role", "body": "I contributed to system development, integration, and testing as part of the team; the vehicle and competition result were collective outcomes." }
+      ]
+    },
     "researchQuestion": "How can a student team integrate perception, control, and hardware into an autonomous vehicle that can operate reliably underwater?",
     "motivation": "Underwater robotics makes integration failures immediate: sensing is constrained, communication is limited, buoyancy and control interact, and components must survive repeated physical testing. The project provided an early setting for learning how robotic subsystems become a working vehicle.",
     "metrics": [
@@ -630,6 +739,15 @@
     "institution": null,
     "role": "Proposed research direction",
     "status": "Proposed research; no completed experiments",
+    "inline": {
+      "question": "How might context-specific failures in physical HRI become enforceable constraints for vision-language-action controlled robots?",
+      "metrics": [],
+      "groups": [
+        { "heading": "Research Direction", "body": "A robot can complete an instruction while acting at the wrong time, continuing after withdrawal, or approaching before someone is ready. This proposed work connects evidence about social appropriateness to observable interaction signals and explicit action requirements." },
+        { "heading": "Proposed Approach", "body": "Controlled handover and assistance scenarios would vary attention, hand availability, distance, movement, withdrawal, and readiness. MoFASA would help identify operationalizable contextual factors, which could then become runtime constraints or training signals for comparisons between baseline, physically constrained, and context-aware VLA policies." },
+        { "heading": "Current Stage", "body": "I developed the analytical-to-engineering research direction. The architecture, experiments, policy comparisons, and outcomes remain proposed; no completed findings are claimed." }
+      ]
+    },
     "researchQuestion": "How can context-specific failures in physical HRI be systematically identified, analyzed, and translated into constraints for vision-language-action controlled robots?",
     "motivation": "A vision-language-action policy may complete an instruction while acting at the wrong time, approaching too quickly, continuing after a person withdraws, or initiating contact before someone is ready. Physical-safety constraints are necessary, but they do not automatically specify the social and contextual conditions under which an otherwise safe action should proceed.",
     "metrics": [],
