@@ -34,9 +34,9 @@ See [ADDING_PROJECTS.md](ADDING_PROJECTS.md) for editing instructions and [CONTE
 
 ## Deployment
 
-Import this folder into a Git repository, connect it to Vercel, select Next.js, and deploy using `npm run build`. No environment variables are required. Set `content/site.json` → `url` to the real HTTPS origin before public launch to enable absolute canonical URLs and the sitemap. Set verified contact information and upload a CV before launch. `url` remains null to avoid indexing a fabricated domain.
+The site deploys to GitHub Pages through `.github/workflows/deploy-pages.yml`. In the GitHub repository, open **Settings → Secrets and variables → Actions → Variables**, create a repository variable named `NEXT_PUBLIC_GOOGLE_ANALYTICS_ID`, and set it to the Google Analytics 4 measurement ID (for example, `G-XXXXXXXXXX`). The next deployment includes Analytics; it is omitted when the variable is unset. Set `content/site.json` → `url` to the real HTTPS origin before public launch to enable absolute canonical URLs and the sitemap. Set verified contact information and upload a CV before launch. `url` remains null to avoid indexing a fabricated domain.
 
-The site includes metadata, an Open Graph image, robots.txt, and a domain-dependent sitemap. Barlow Condensed and DM Sans fonts are self-hosted through Fontsource; no Google Fonts connection is required. No analytics or external embeds are included by default.
+The site includes metadata, an Open Graph image, robots.txt, a domain-dependent sitemap, GoatCounter, and optional Google Analytics 4. Barlow Condensed and DM Sans fonts are self-hosted through Fontsource; no Google Fonts connection is required. No external embeds are included by default.
 
 ## Architecture
 
